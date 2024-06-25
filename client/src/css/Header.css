@@ -1,0 +1,35 @@
+.header{
+    width: 100%;
+    height: 93px;
+    display: flex;  
+}
+
+.header__container{
+    width: 100%;
+    display: flex;  /* organise childen elements horizontally*/
+} 
+
+.container__datetime{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 23px;
+    margin-left: 70px;
+}
+
+.datetime--time{
+    font-size: 27px;
+    font-family: "Saira", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.datetime--date{
+    font-size: 21px;
+    font-family: "Saira", sans-serif;
+    font-weight: 500;
+    color: #858181;
+}
+
+.container__title--img{
+}

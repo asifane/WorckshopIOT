@@ -1,0 +1,75 @@
+.main{
+    width: 100%;
+    display: flex;
+}
+
+.main__container{
+    width: 100%;
+    max-width: 1146px;
+    margin-top: 50px;
+    margin-left: 147px;
+    margin-bottom: 50px;
+}
+
+.main__container-form{
+    width: fit-content;
+    display:flex;
+    flex-direction: column;
+    background-color: #393939;
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+.container-form--title{
+    font-size: 20px;
+    font-family: "Saira", sans-serif;
+    font-weight: 400;
+    color: #BABABA;
+    margin-bottom: 10px;
+}
+
+.container-form--form{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;    
+}
+
+.form--input{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: "Saira", sans-serif;
+}
+
+
+.form--button{
+    width: 145px;
+    height: 45px;
+    background-color: rgb(94, 91, 255,1);
+    font-family: "Saira", sans-serif;
+    font-weight: 500;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form--button:hover{
+    background-color:rgb(94, 91, 255, 0.6);
+}
+
+
+
+.main__container-card{
+    width: fit-content;
+    max-height: 402px;
+    background-color: #393939;
+    border-radius: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    gap: 15px;
+    overflow-y: auto;
+}
