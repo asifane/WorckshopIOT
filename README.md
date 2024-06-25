@@ -1,5 +1,5 @@
 # Description
-Web application for smart home bases on MERN stack.
+Web application for Smart Home, based on MERN stack.
 
 # How to install and run
 **Client**
