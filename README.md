@@ -1,3 +1,6 @@
+# Description
+Web application for smart home bases on MERN stack.
+
 # How to install and run
 **Client**
 
